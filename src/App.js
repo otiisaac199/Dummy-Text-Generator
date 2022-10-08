@@ -6,8 +6,9 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    let amount = parseInt(count);
     setText(data);
-    console.log("hello world");
+    console.log(amount);
   };
 
   return (
